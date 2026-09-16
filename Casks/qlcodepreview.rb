@@ -37,7 +37,9 @@ cask "qlcodepreview" do
 
   caveats <<~EOS
     Enable the extension once after installing:
-    System Settings -> General -> Login Items & Extensions -> Quick Look -> QLCodePreview = ON
+    Run QLCodePreview first (the toggle only appears in System Settings
+    after the app has been run once), then
+    System Settings -> General -> Login Items & Extensions -> Extensions -> QLCodePreview = ON
     (macOS refuses to let installers do this step.)
   EOS
 
