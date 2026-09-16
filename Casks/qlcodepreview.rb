@@ -23,6 +23,7 @@ cask "qlcodepreview" do
   name "QLCodePreview"
   desc "Syntax-highlighted Quick Look previews for source code"
   homepage "https://konstruukt.com/projects/qlcodepreview"
+  license :mit
 
   livecheck do
     url "https://github.com/Konstruukt-Labs/qlcodepreview/releases/latest"
