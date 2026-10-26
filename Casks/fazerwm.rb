@@ -13,8 +13,8 @@
 #   brew audit --cask --new ./Casks/fazerwm.rb
 #   brew style --cask ./Casks/fazerwm.rb
 cask "fazerwm" do
-  version "2026.08.26" # TODO: real UTC date of the first public release (CalVer YYYY.MM.DD); CI rewrites this line from then on
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000" # TODO: shasum -a 256 of the released dmg; CI rewrites this line from then on
+  version "2026.10.26"
+  sha256 "6059d947bbb9c8d32c7b53e153ef917765c3c07cc391d96ed2d769ff639da308"
 
   # Artifacts live on the public releases repo (private source repo builds them):
   #   https://github.com/Konstruukt-Labs/fazerwm/releases
