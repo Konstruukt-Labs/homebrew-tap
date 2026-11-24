@@ -13,8 +13,8 @@
 #   brew audit --cask --new ./Casks/fazerwm.rb
 #   brew style --cask ./Casks/fazerwm.rb
 cask "fazerwm" do
-  version "2026.11.18"
-  sha256 "0e4cc66f9cbf0a5e51f29da20e0bb6d7b9429ef0c83b3eb0ed08f24af09c9691"
+  version "2026.11.24"
+  sha256 "2970b598820ca4a3feac63ff40fc2fe3706221b1ec0500faa5ae9bf2aa9dd2ca"
 
   # Artifacts live on the public releases repo (private source repo builds them):
   #   https://github.com/Konstruukt-Labs/fazerwm/releases
